@@ -9,13 +9,13 @@ public class GradeCheck {
         int marks=sc.nextInt();
         if(marks>=90 && marks<=100){
             System.out.println("Above 90%");
-        } else if (marks>=75 && marks<90) {
+        } else if (marks>=75) {
             System.out.println("Above 75%");
         }
-        else if (marks>=60 && marks<75) {
+        else if (marks>=60) {
             System.out.println("Above 60%");
         }
-        else if (marks>=30 && marks<60) {
+        else if (marks>=30) {
             System.out.println("Above 30%");
         }
         else {
